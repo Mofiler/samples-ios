@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E8ED4EF9A419851BB99D97B886D0456 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D4B2563438C2B54715ADDAE028F52 /* Async.swift */; };
+		32B05DACB567FBF9713189A9D3531786 /* Mofiler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDDC44A136CC59C120386D540D008B4 /* Mofiler-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3368FB3439BC4A7A83F536FB3F30AEF8 /* MOGenericManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E96F2EDE126CD80F83E37A3A26272D5 /* MOGenericManager.swift */; };
+		36A80D0FD97F450B0AB5DD3F84D72B7F /* Pods-MofilerAppObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD731B0CFE2948E0C594AF6E3FD1115 /* Pods-MofilerAppObjC-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C4DAFA130460D63D0B822D265F53D47 /* Pods-MofilerAppObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C56AA6DB2A25FFA24A87EA069F49E /* Pods-MofilerAppObjC-dummy.m */; };
+		93A9635BB8D8BFF7AFF72B68A57B458B /* Mofiler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 333495ED9F4CF19AF8DF2F63769DEEAD /* Mofiler-dummy.m */; };
+		ADC6627DFE694B0D0C5251CDFA5BE52D /* Mofiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F5732CC01AA7CD8F4ACBE7386B7AFB /* Mofiler.swift */; };
+		ADE5474539659C54D0482C967023B996 /* MODiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE57AFDD4B440BC18584C0C53A215 /* MODiskCache.swift */; };
+		AEC068D34EC71DD593788FE6DD461D2B /* BluetoothScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B169BFF2543B1F858BC3C2627B5DCB /* BluetoothScanner.swift */; };
+		B033A09F0A7E053339654D7406C88833 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B357E01B11929CD9200BADDE311641 /* UIDevice.swift */; };
+		E1AF36C61563CB52C1DD80BEB480B76C /* MODeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B71E60CEE83471EADDB60874DB0CA5 /* MODeviceManager.swift */; };
+		E1CB5F2E045441CB13F3605B7378F182 /* DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0334A279D932D15145823CF95B6DDE0F /* DispatchTimer.swift */; };
+		E6C58489514D11261FE02EF7AE9CA20A /* MOAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824F2BD230D6D08013FCC890AC790489 /* MOAPIManager.swift */; };
+		EB7025F1622FB5E57756C78058BC20CD /* Mofiler.h in Headers */ = {isa = PBXBuildFile; fileRef = EF54CCD0E36B786AF57170992CF7CD63 /* Mofiler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F662329D48CD33196FA67E624B3A11C1 /* Eddystone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF3F23C6DFCFDE14A55DE347CBAB1B /* Eddystone.swift */; };
+		F73BD9E5BEFCBE6C311FBFEB7A440EFB /* BeaconScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B0F109B50DB758E148A336AC3B89E /* BeaconScanner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F91AC0F9FEEC18B24B7D2C0FB988186B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28AB88FFF458E7E439EFC496323DE0B;
+			remoteInfo = Mofiler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0334A279D932D15145823CF95B6DDE0F /* DispatchTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchTimer.swift; path = Mofiler/Managers/DispatchTimer.swift; sourceTree = "<group>"; };
+		05ADE57AFDD4B440BC18584C0C53A215 /* MODiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MODiskCache.swift; path = Mofiler/Managers/MODiskCache.swift; sourceTree = "<group>"; };
+		12F5732CC01AA7CD8F4ACBE7386B7AFB /* Mofiler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mofiler.swift; path = Mofiler/Mofiler.swift; sourceTree = "<group>"; };
+		139A43AE2E6FC696C89E42424BEE9387 /* Pods-MofilerAppObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MofilerAppObjC.release.xcconfig"; sourceTree = "<group>"; };
+		1AB41A3F6E4F6581DFF27266A603EF64 /* Mofiler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mofiler.xcconfig; sourceTree = "<group>"; };
+		1FD731B0CFE2948E0C594AF6E3FD1115 /* Pods-MofilerAppObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MofilerAppObjC-umbrella.h"; sourceTree = "<group>"; };
+		2E96F2EDE126CD80F83E37A3A26272D5 /* MOGenericManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOGenericManager.swift; path = Mofiler/Managers/MOGenericManager.swift; sourceTree = "<group>"; };
+		333495ED9F4CF19AF8DF2F63769DEEAD /* Mofiler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mofiler-dummy.m"; sourceTree = "<group>"; };
+		35D3313BE53AD73E6271CEECC15D644F /* Mofiler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = Mofiler.modulemap; path = ../../Headers/Public/Mofiler/Mofiler.modulemap; sourceTree = "<group>"; };
+		38B357E01B11929CD9200BADDE311641 /* UIDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDevice.swift; path = Mofiler/Managers/UIDevice.swift; sourceTree = "<group>"; };
+		3A03946452BD77F83083AC624CE6E974 /* Pods-MofilerAppObjC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MofilerAppObjC-resources.sh"; sourceTree = "<group>"; };
+		46CDEDAD716048F69636425CD088E6A8 /* libMofiler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMofiler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B169BFF2543B1F858BC3C2627B5DCB /* BluetoothScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BluetoothScanner.swift; path = Mofiler/Managers/BluetoothScanner.swift; sourceTree = "<group>"; };
+		5E5C56AA6DB2A25FFA24A87EA069F49E /* Pods-MofilerAppObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MofilerAppObjC-dummy.m"; sourceTree = "<group>"; };
+		66FF3F23C6DFCFDE14A55DE347CBAB1B /* Eddystone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Eddystone.swift; path = Mofiler/Managers/Eddystone.swift; sourceTree = "<group>"; };
+		7120D8479ACBF11090EEE1B2364304F3 /* Pods-MofilerAppObjC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MofilerAppObjC-frameworks.sh"; sourceTree = "<group>"; };
+		824F2BD230D6D08013FCC890AC790489 /* MOAPIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOAPIManager.swift; path = Mofiler/Managers/MOAPIManager.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		984D1BC6D3302AB4580247073B946CC3 /* Pods-MofilerAppObjC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MofilerAppObjC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A462D2C3534F1C6766618D4114BCEC8D /* Pods-MofilerAppObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MofilerAppObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		ADAFF61560B177D5E98FF48588187681 /* libPods-MofilerAppObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MofilerAppObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E0B9422274FFE16E78D6D268EF7EFA /* Mofiler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mofiler-prefix.pch"; sourceTree = "<group>"; };
+		CDD25F00952B0B0CA971B15618BD31D1 /* Pods-MofilerAppObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MofilerAppObjC.modulemap"; sourceTree = "<group>"; };
+		E81B0F109B50DB758E148A336AC3B89E /* BeaconScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaconScanner.swift; path = Mofiler/Managers/BeaconScanner.swift; sourceTree = "<group>"; };
+		EB8D4B2563438C2B54715ADDAE028F52 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Mofiler/Managers/Async.swift; sourceTree = "<group>"; };
+		EF54CCD0E36B786AF57170992CF7CD63 /* Mofiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mofiler.h; path = Mofiler/Mofiler.h; sourceTree = "<group>"; };
+		F4B71E60CEE83471EADDB60874DB0CA5 /* MODeviceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MODeviceManager.swift; path = Mofiler/Managers/MODeviceManager.swift; sourceTree = "<group>"; };
+		F7DAD54C3FD1D9B83246E221ECDCA306 /* Pods-MofilerAppObjC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MofilerAppObjC-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEDDC44A136CC59C120386D540D008B4 /* Mofiler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Mofiler-umbrella.h"; path = "../../Headers/Public/Mofiler/Mofiler-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38902EA8AF6F6DF1083BC53A9A9FB0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50488939CC75F827D0C891E9A3CD9F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		610B4B1B9D71A0FCADA4A4888D4A52B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46CDEDAD716048F69636425CD088E6A8 /* libMofiler.a */,
+				ADAFF61560B177D5E98FF48588187681 /* libPods-MofilerAppObjC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70B159A8232AD3A9A7555F24490739A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF13949181AC529920AA3629C305A8F3 /* Mofiler */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				70B159A8232AD3A9A7555F24490739A5 /* Pods */,
+				610B4B1B9D71A0FCADA4A4888D4A52B6 /* Products */,
+				E9EC6AC577FE20F813A20103D11C148E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F493B3636535B0D1552C20E3ABBE6B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35D3313BE53AD73E6271CEECC15D644F /* Mofiler.modulemap */,
+				1AB41A3F6E4F6581DFF27266A603EF64 /* Mofiler.xcconfig */,
+				333495ED9F4CF19AF8DF2F63769DEEAD /* Mofiler-dummy.m */,
+				C2E0B9422274FFE16E78D6D268EF7EFA /* Mofiler-prefix.pch */,
+				FEDDC44A136CC59C120386D540D008B4 /* Mofiler-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mofiler";
+			sourceTree = "<group>";
+		};
+		9B779370091BA838E0258EC01B75D9F0 /* Pods-MofilerAppObjC */ = {
+			isa = PBXGroup;
+			children = (
+				CDD25F00952B0B0CA971B15618BD31D1 /* Pods-MofilerAppObjC.modulemap */,
+				984D1BC6D3302AB4580247073B946CC3 /* Pods-MofilerAppObjC-acknowledgements.markdown */,
+				F7DAD54C3FD1D9B83246E221ECDCA306 /* Pods-MofilerAppObjC-acknowledgements.plist */,
+				5E5C56AA6DB2A25FFA24A87EA069F49E /* Pods-MofilerAppObjC-dummy.m */,
+				7120D8479ACBF11090EEE1B2364304F3 /* Pods-MofilerAppObjC-frameworks.sh */,
+				3A03946452BD77F83083AC624CE6E974 /* Pods-MofilerAppObjC-resources.sh */,
+				1FD731B0CFE2948E0C594AF6E3FD1115 /* Pods-MofilerAppObjC-umbrella.h */,
+				A462D2C3534F1C6766618D4114BCEC8D /* Pods-MofilerAppObjC.debug.xcconfig */,
+				139A43AE2E6FC696C89E42424BEE9387 /* Pods-MofilerAppObjC.release.xcconfig */,
+			);
+			name = "Pods-MofilerAppObjC";
+			path = "Target Support Files/Pods-MofilerAppObjC";
+			sourceTree = "<group>";
+		};
+		DF13949181AC529920AA3629C305A8F3 /* Mofiler */ = {
+			isa = PBXGroup;
+			children = (
+				EB8D4B2563438C2B54715ADDAE028F52 /* Async.swift */,
+				E81B0F109B50DB758E148A336AC3B89E /* BeaconScanner.swift */,
+				52B169BFF2543B1F858BC3C2627B5DCB /* BluetoothScanner.swift */,
+				0334A279D932D15145823CF95B6DDE0F /* DispatchTimer.swift */,
+				66FF3F23C6DFCFDE14A55DE347CBAB1B /* Eddystone.swift */,
+				824F2BD230D6D08013FCC890AC790489 /* MOAPIManager.swift */,
+				F4B71E60CEE83471EADDB60874DB0CA5 /* MODeviceManager.swift */,
+				05ADE57AFDD4B440BC18584C0C53A215 /* MODiskCache.swift */,
+				EF54CCD0E36B786AF57170992CF7CD63 /* Mofiler.h */,
+				12F5732CC01AA7CD8F4ACBE7386B7AFB /* Mofiler.swift */,
+				2E96F2EDE126CD80F83E37A3A26272D5 /* MOGenericManager.swift */,
+				38B357E01B11929CD9200BADDE311641 /* UIDevice.swift */,
+				7F493B3636535B0D1552C20E3ABBE6B9 /* Support Files */,
+			);
+			path = Mofiler;
+			sourceTree = "<group>";
+		};
+		E9EC6AC577FE20F813A20103D11C148E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B779370091BA838E0258EC01B75D9F0 /* Pods-MofilerAppObjC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37B7DD4AF88AFA89D85432ABBC3A2EDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A80D0FD97F450B0AB5DD3F84D72B7F /* Pods-MofilerAppObjC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955A9EB4738AFC4DD160E83B7C8F1518 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B05DACB567FBF9713189A9D3531786 /* Mofiler-umbrella.h in Headers */,
+				EB7025F1622FB5E57756C78058BC20CD /* Mofiler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		180A6F071A2E035891AD83B4086E4E7C /* Pods-MofilerAppObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727721285EF396331B90B2E935DB06D4 /* Build configuration list for PBXNativeTarget "Pods-MofilerAppObjC" */;
+			buildPhases = (
+				9A61EE5D2BCFE595AFF745BF6203C58C /* Sources */,
+				38902EA8AF6F6DF1083BC53A9A9FB0DD /* Frameworks */,
+				37B7DD4AF88AFA89D85432ABBC3A2EDD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89CE085C0BAE0009BC1F39847B60BA94 /* PBXTargetDependency */,
+			);
+			name = "Pods-MofilerAppObjC";
+			productName = "Pods-MofilerAppObjC";
+			productReference = ADAFF61560B177D5E98FF48588187681 /* libPods-MofilerAppObjC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D28AB88FFF458E7E439EFC496323DE0B /* Mofiler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F60AADB91147A7F8162BEAEDB5F8A9F /* Build configuration list for PBXNativeTarget "Mofiler" */;
+			buildPhases = (
+				EBD3A79330F4E45C0DE5AEF630B7E804 /* Sources */,
+				50488939CC75F827D0C891E9A3CD9F0C /* Frameworks */,
+				955A9EB4738AFC4DD160E83B7C8F1518 /* Headers */,
+				0CFB571DB373485E51AC3C7517709B74 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mofiler;
+			productName = Mofiler;
+			productReference = 46CDEDAD716048F69636425CD088E6A8 /* libMofiler.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 610B4B1B9D71A0FCADA4A4888D4A52B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28AB88FFF458E7E439EFC496323DE0B /* Mofiler */,
+				180A6F071A2E035891AD83B4086E4E7C /* Pods-MofilerAppObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CFB571DB373485E51AC3C7517709B74 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Mofiler/Mofiler.modulemap",
+				"${PODS_ROOT}/Headers/Public/Mofiler/Mofiler-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Mofiler-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Mofiler/Mofiler.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Mofiler/Mofiler-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A61EE5D2BCFE595AFF745BF6203C58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4DAFA130460D63D0B822D265F53D47 /* Pods-MofilerAppObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD3A79330F4E45C0DE5AEF630B7E804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8ED4EF9A419851BB99D97B886D0456 /* Async.swift in Sources */,
+				F73BD9E5BEFCBE6C311FBFEB7A440EFB /* BeaconScanner.swift in Sources */,
+				AEC068D34EC71DD593788FE6DD461D2B /* BluetoothScanner.swift in Sources */,
+				E1CB5F2E045441CB13F3605B7378F182 /* DispatchTimer.swift in Sources */,
+				F662329D48CD33196FA67E624B3A11C1 /* Eddystone.swift in Sources */,
+				E6C58489514D11261FE02EF7AE9CA20A /* MOAPIManager.swift in Sources */,
+				E1AF36C61563CB52C1DD80BEB480B76C /* MODeviceManager.swift in Sources */,
+				ADE5474539659C54D0482C967023B996 /* MODiskCache.swift in Sources */,
+				93A9635BB8D8BFF7AFF72B68A57B458B /* Mofiler-dummy.m in Sources */,
+				ADC6627DFE694B0D0C5251CDFA5BE52D /* Mofiler.swift in Sources */,
+				3368FB3439BC4A7A83F536FB3F30AEF8 /* MOGenericManager.swift in Sources */,
+				B033A09F0A7E053339654D7406C88833 /* UIDevice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89CE085C0BAE0009BC1F39847B60BA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mofiler;
+			target = D28AB88FFF458E7E439EFC496323DE0B /* Mofiler */;
+			targetProxy = F91AC0F9FEEC18B24B7D2C0FB988186B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		164909613287E645C92B98EC12B8B727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A462D2C3534F1C6766618D4114BCEC8D /* Pods-MofilerAppObjC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MofilerAppObjC/Pods-MofilerAppObjC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E07DDA01553EF24209065C9F5B1019F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB41A3F6E4F6581DFF27266A603EF64 /* Mofiler.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Mofiler/Mofiler-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/Mofiler/Mofiler.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Mofiler;
+				PRODUCT_NAME = Mofiler;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AB501B758380D53BE574370171350575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139A43AE2E6FC696C89E42424BEE9387 /* Pods-MofilerAppObjC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MofilerAppObjC/Pods-MofilerAppObjC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADC8E9438115E94B7241E0ECF78002F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB41A3F6E4F6581DFF27266A603EF64 /* Mofiler.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Mofiler/Mofiler-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/Mofiler/Mofiler.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Mofiler;
+				PRODUCT_NAME = Mofiler;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F60AADB91147A7F8162BEAEDB5F8A9F /* Build configuration list for PBXNativeTarget "Mofiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC8E9438115E94B7241E0ECF78002F0 /* Debug */,
+				4E07DDA01553EF24209065C9F5B1019F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727721285EF396331B90B2E935DB06D4 /* Build configuration list for PBXNativeTarget "Pods-MofilerAppObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164909613287E645C92B98EC12B8B727 /* Debug */,
+				AB501B758380D53BE574370171350575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
