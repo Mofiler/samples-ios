@@ -8,14 +8,14 @@ You can use CocoaPods or Carthage to use the Mofile SDK.
 ### CocoaPods
 If you don't have CocoaPods installed, please procees by running the following command in your OS X:
 
-`$ sudo gem install cocoapods`
+`$ gem install cocoapods`
 
 Find more details in CocoaPods <a href="https://cocoapods.org/" target="_blank"> full documentation</a>
 
 ### Carthage
 If you don't have Carthage installed, please procees by running the following command in your OS X:
 
-`$ sudo brew install carthage`
+`$ brew install carthage`
 
 Find more details in Carthage <a href="https://github.com/Carthage/Carthage#installing-carthage" target="_blank"> full documentation</a>
 
