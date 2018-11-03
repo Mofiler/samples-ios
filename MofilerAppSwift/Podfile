@@ -6,9 +6,5 @@ target 'MofilerAppSwift' do
   use_frameworks!
 
   # Pods for MofilerAppSwift
-	if File.exist?("/Users/bryantafel/Documents/sdk-ios/Mofiler/Mofiler.h")
-	    pod 'Mofiler', :path => "/Users/bryantafel/Documents/sdk-ios/"
-	else
-		pod 'Mofiler'
-	end
+	pod 'Mofiler'
 end
