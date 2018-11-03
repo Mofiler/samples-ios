@@ -1,2 +1,1 @@
-#github "Mofiler/sdk-ios" "master"
-git "file:///Users/bryantafel/Documents/sdk-ios/" "master"
+github "Mofiler/sdk-ios" "1.1.7"
