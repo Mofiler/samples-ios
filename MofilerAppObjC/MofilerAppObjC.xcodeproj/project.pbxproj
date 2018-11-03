@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8AA082B03F73754756F25D7 /* libPods-MofilerAppObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEAB80265690707AD029765 /* libPods-MofilerAppObjC.a */; };
+		F83F314C218CF0BD007A5F3E /* Mofiler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08589E741DB0054600144878 /* Mofiler.framework */; };
+		F83F314D218CF0BD007A5F3E /* Mofiler.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08589E741DB0054600144878 /* Mofiler.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FFC1DB381DAD32E700396B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1DB371DAD32E700396B56 /* main.m */; };
 		FFC1DB3B1DAD32E700396B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1DB3A1DAD32E700396B56 /* AppDelegate.m */; };
 		FFC1DB3E1DAD32E700396B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1DB3D1DAD32E700396B56 /* ViewController.m */; };
@@ -16,11 +17,22 @@
 		FFC1DB461DAD32E700396B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC1DB441DAD32E700396B56 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F83F314E218CF0BD007A5F3E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F83F314D218CF0BD007A5F3E /* Mofiler.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		08589E741DB0054600144878 /* Mofiler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mofiler.framework; path = Carthage/Build/iOS/Mofiler.framework; sourceTree = SOURCE_ROOT; };
-		19DFBF065998512E36746EED /* Pods-MofilerAppObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MofilerAppObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MofilerAppObjC/Pods-MofilerAppObjC.debug.xcconfig"; sourceTree = "<group>"; };
-		A0015A71F350D1003985F743 /* Pods-MofilerAppObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MofilerAppObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MofilerAppObjC/Pods-MofilerAppObjC.release.xcconfig"; sourceTree = "<group>"; };
-		FDEAB80265690707AD029765 /* libPods-MofilerAppObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MofilerAppObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC1DB331DAD32E700396B56 /* MofilerAppObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MofilerAppObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC1DB371DAD32E700396B56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FFC1DB391DAD32E700396B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,37 +50,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8AA082B03F73754756F25D7 /* libPods-MofilerAppObjC.a in Frameworks */,
+				F83F314C218CF0BD007A5F3E /* Mofiler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		299DBD33A2D73A7046B809F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FDEAB80265690707AD029765 /* libPods-MofilerAppObjC.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		30B7BDA650940F11EA9B52F6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				19DFBF065998512E36746EED /* Pods-MofilerAppObjC.debug.xcconfig */,
-				A0015A71F350D1003985F743 /* Pods-MofilerAppObjC.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		FFC1DB2A1DAD32E700396B56 = {
 			isa = PBXGroup;
 			children = (
 				FFC1DB351DAD32E700396B56 /* MofilerAppObjC */,
 				FFC1DB341DAD32E700396B56 /* Products */,
-				30B7BDA650940F11EA9B52F6 /* Pods */,
-				299DBD33A2D73A7046B809F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,11 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFC1DB551DAD32E700396B56 /* Build configuration list for PBXNativeTarget "MofilerAppObjC" */;
 			buildPhases = (
-				E47DD6493948DF7CEA7957C1 /* [CP] Check Pods Manifest.lock */,
 				FFC1DB2F1DAD32E700396B56 /* Sources */,
 				FFC1DB301DAD32E700396B56 /* Frameworks */,
 				FFC1DB311DAD32E700396B56 /* Resources */,
 				08589E781DB0057B00144878 /* Carthage */,
+				F83F314E218CF0BD007A5F3E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,24 +182,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-		E47DD6493948DF7CEA7957C1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MofilerAppObjC-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -337,9 +312,8 @@
 		};
 		FFC1DB561DAD32E700396B56 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19DFBF065998512E36746EED /* Pods-MofilerAppObjC.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -363,9 +337,8 @@
 		};
 		FFC1DB571DAD32E700396B56 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0015A71F350D1003985F743 /* Pods-MofilerAppObjC.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";

@@ -2,15 +2,15 @@ PODS:
   - Mofiler (1.1.6)
 
 DEPENDENCIES:
-  - Mofiler
+  - Mofiler (from `/Users/bryantafel/Documents/sdk-ios/`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Mofiler
+EXTERNAL SOURCES:
+  Mofiler:
+    :path: "/Users/bryantafel/Documents/sdk-ios/"
 
 SPEC CHECKSUMS:
-  Mofiler: 7c1e450c0158af2912e44614fa30646a0b3f03cd
+  Mofiler: bef2a88ab3654a53e0d966ed43872985019f99da
 
-PODFILE CHECKSUM: 56c703a1c504558c91e70a34139eeac8828d24c8
+PODFILE CHECKSUM: 8ce60301be07c370d2a30f7e06de63957ea4472a
 
 COCOAPODS: 1.5.3

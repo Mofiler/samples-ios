@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func testMofiler(_ sender: Any) {
+        print("test button");
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.testMofiler();
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

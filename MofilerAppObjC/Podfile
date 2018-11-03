@@ -6,6 +6,11 @@ target 'MofilerAppObjC' do
   # use_frameworks!
 
   # Pods for MofilerAppObjC
-pod 'Mofiler'
+
+if File.exist?("/Users/bryantafel/Documents/sdk-ios/Mofiler/Mofiler.h")
+	pod 'Mofiler', :path => "/Users/bryantafel/Documents/sdk-ios/"
+else
+	pod 'Mofiler'
+end
 
 end

@@ -1,6 +1,0 @@
-module Pods_MofilerAppObjC {
-  umbrella header "Pods-MofilerAppObjC-umbrella.h"
-
-  export *
-  module * { export * }
-}

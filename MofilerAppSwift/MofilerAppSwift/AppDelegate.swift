@@ -15,14 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MofilerDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        return true;
+    }
+    
+    public func testMofiler(){
         let mof = Mofiler.sharedInstance
         
-        mof.initializeWith(appKey: "MY-APPKEY-HERE-IOS", appName: "MyIosTestApplication")
+        mof.initializeWith(appKey: "MY-APPKEY-HERE-IOS", appName: "MyIosTestApplication", useLoc: true)
         mof.delegate = self
-//        mof.url = "mofiler.com/mock"
-        mof.url = "mofiler.com"
+        mof.url = "mofiler.com/mock"
         mof.addIdentity(identity: ["username" : "johndoe"])
         mof.addIdentity(identity: ["name":"john doe"])
         mof.addIdentity(identity: ["email":"john@doe.com"])
@@ -60,15 +63,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MofilerDelegate {
         
         mof.flushDataToMofiler()
         
-//        mof.getValue(key: "mykey1", identityKey: "username", identityValue: "johndoe")
+        //        mof.getValue(key: "mykey1", identityKey: "username", identityValue: "johndoe")
         
-//        mof.getValue(key: "mykey1", identityKey: "username", identityValue: "johndoe") { (result, error) in
-//            print(result)
-//        }
+        //        mof.getValue(key: "mykey1", identityKey: "username", identityValue: "johndoe") { (result, error) in
+        //            print(result)
+        //        }
         
-        return true
     }
-    
     //# MARK: - MofilerDelegate
     public func responseValue(key: String, identityKey: String, identityValue: String, value: [String : Any]) {
         print(value)
